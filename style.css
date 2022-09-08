@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto";
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.header {
+    height: 100vh;
+    background-image: url("Books 3.png");
+    background-repeat: no-repeat;
+
+}
+h2 {
+    height: 18px;
+}
+.first-person {
+    height: 18px;
+}
+.second-person {
+    height: 18px;
+}
+
+.circle1 {
+    background-image: url("Ola1.png");
+    background-position: center;
+    float: left;
+    border-radius: 50%; 
+    width: 250px;        height: 250px;
+    display: inline-block;
+}
+.circle2 {
+    background-image: url("Ola1.png");
+    background-position: center;
+    float: right;
+    border-radius: 50%; 
+    width: 250px;        height: 250px;
+    display: inline-block;
+}
+.header-primary {
+    color: white;
+    font-size: 36px;
+    padding: 178px 609px 349.89px 94px;
+    overflow-wrap: break-word;
+}
+.header-secondary {
+    color: white;
+    font-size: 18px;
+    
+}
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1280px;
+    height: 698px;
+    background-color: #405D78;
+}
+.box1 {
+    position:relative;
+    top: 174.65px;
+    background-color: white;
+    width: 198px;
+    Height: 193.78px;
+    margin: 174.65;
+}
+.box2 {
+    background-color: white;
+    width: 198px;
+    Height: 193.78px;
+}
+.box3 {
+    background-color: white;
+    width: 198px;
+    Height: 193.78px;
+}
+.box4 {
+    background-color: white;
+    width: 198px;
+    Height: 193.78px;
+}
+.box5 {
+    background-color: white;
+    width: 198px;
+    Height: 193.78px;
+}
+.box6 {
+    background-color: white;
+    width: 198px;
+    Height: 193.78px;
+}
+.footer {
+    background-color: #4E4E4E;
+    color: white;
+    width: 1280px;
+    height: 71px;
+}
