@@ -4,56 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reset.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
     <title>Projekt nr 1 - ASP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet"/>
+    
 </head>
 <body>
     <nav>
-        <a href="ASP">ASP</a>
-        <ul>
-            <li><a href=""></a>O nas</li>
-            <li><a href=""></a>Oferta</li>
-            <li><a href=""></a>Kontakt</li>
-        </ul>
-        <a class="headline">O nas</a>
-        <a class="headline">Oferta</a>
-        <a class="headline">Kontakt</a>
+        <div class="container">
+            <a href="ASP" class="logo">ASP</a>
+            <ul>
+                <li><a href="O nas.html"></a>O nas</li>
+                <li><a href="Oferta.html"></a>Oferta</li>
+                <li><a href="Kontakt"></a>Kontakt</li>
+            </ul>
+        </div>
     </nav>
 <header class="header">
-    <div class="shadow">
-        <div class="container">
-            <h1 class="header-primary">Nasza firma oferuje najwyższej jakości usługi</h1>
-            <p class="header-secondary">Nie wierz nam na słowo - sprawdź</p>
-            <a href="#offer">Oferta</a>
+    <div class="container">
+        <div class="shadow">
+            <div>
+                <h1 class="header-primary">Nasza firma oferuje najwyższej jakości usługi</h1>
+                <p class="header-secondary">Nie wierz nam na słowo - sprawdź</p>
+                <a href="#offer">Oferta</a>
+            </div>
         </div>
     </div>
 </header>
 <section>
-    <h1>Nasi specjaliści</h1>
-    <div>
-        <style class="circle1"></style>
-        <h2 class="second-person">Imię i nazwisko [Dział]</h2>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.</p>
-    </div>
-    <div>
-        <style class="circle2"></style>
-        <h2 class="second-person">Imię i nazwisko [Dział]</h2>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.</p>
+    <div class="second-container">
+        <h1 class="our-specialists">Nasi specjaliści</h1>
+            <div>
+                <div class="specialist img-left">
+                    <div class="circle1"></div>
+                        <div>
+                        <h2 class="first-person">Imię i nazwisko [Dział]</h2>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.</p>
+                        </div>
+                </div>
+        <div class="specialist img-left">
+            <div class="circle2"></div>
+            <h2 class="second-person">Imię i nazwisko [Dział]</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.</p>
+        </div>
+        </div>
     </div>
 </section>
 <div class="box-container">
-    <div class="box1">Usługa 1</div>
-    <div class="box2">Usługa 2</div>
-    <div class="box3">Usługa 3</div>
-    <div class="box4">Usługa 4</div>
-    <div class="box5">Usługa 5</div>
-    <div class="box6">Usługa 6</div>
+    <h2 class="services">Czym zajmuje się nasza firma?</h2>
+    <div class="container">
+        <div class="box-list">
+            <div class="box">Usługa 1 (nowość)</div>
+            <div class="box">Usługa 2</div>
+            <div class="box">Usługa 3</div>
+            <div class="box">Usługa 4</div>
+            <div class="box">Usługa 5</div>
+            <div class="box">Usługa 6</div>
+        </div>
+    </div>
 </div>
 <footer class="footer">
-    <p>ASP - wszelkie prawa zastrzeżone, 2019</p>
+    <div class="container">
+        <p>ASP - wszelkie prawa zastrzeżone, 2019</p>
+    </div>
 </footer>
 </body>
 </html>
